@@ -1,0 +1,38 @@
+
+.EXPERIENCE{border-left: 0.1px solid #777;}
+.EXPERIENCE a {text-decoration: none; color: black;}
+.EXPERIENCE .Shape-tri{background-color: rgb(242, 243, 247);}
+.shape-C{
+    width: 4rem;
+    padding: 10px;
+    height: 4rem;
+    border-radius: 50%;
+    left: -35px;
+    border: 5px solid  #f2f3f7;
+}
+.shape-C:nth-child(1) {
+    background-color: #2c98f0;
+    top: 15%;
+}
+.shape-C:nth-child(2) {
+    background-color: #d9534fe0;
+    top: 45%;
+}
+.shape-C:nth-child(3) {
+    background-color: #f0ad4e;
+    bottom: 17%;
+}
+.Shape-tri::before{
+    border-top: 20px solid transparent;
+    border-left: 0 solid #f2f3f7;
+    border-right: 20px solid #f2f3f7;
+    border-bottom: 20px solid transparent;
+    left: -20px;
+    top: 35%;
+    position: absolute;
+    content: "";
+}
+.Shape-tri span{
+    color: #777;
+    margin-right: 5%;
+}

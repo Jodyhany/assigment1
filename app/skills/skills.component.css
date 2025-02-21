@@ -1,0 +1,17 @@
+
+   .shape-C{
+      position: absolute;
+      right: -10px;
+      background-color: #2c98f0;
+      border-radius: 50%;
+      width: 2rem;
+      height: 2rem;
+   }
+   /* colors */
+   .y{background-color:  #f9bf3f !important; } 
+   .g{background-color: #2fa499 !important;}
+   .r{background-color: #ec5453 !important;}
+   .p{background-color: #a84cb8!important;}
+   .m{background-color: #4054b2!important;}
+   .crickle{width: 20px;
+   height: 28px;}

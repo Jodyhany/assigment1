@@ -1,0 +1,12 @@
+nav .active-li {color: #2c98f0;}
+.project{
+    background-size: cover;
+    background-repeat: no-repeat;
+   min-width: 100%;
+   background-position: center;
+}
+.content{background-color: #2c98f0;}
+.content-url {margin-top: 30%;}
+.content-url div{background-color:#ffffff80;}
+.project:hover .content {opacity: 1!important;}
+body{background-color: red;}
